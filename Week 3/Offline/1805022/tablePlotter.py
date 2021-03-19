@@ -26,7 +26,7 @@ def find_Root_By_Bisection_Method(lower,upper,MAX_ITERATION):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    table = find_Root_By_Bisection_Method(-1.999, 0.999, 20)
+    table = find_Root_By_Bisection_Method(0, 0.999, 20)
     header = ["iteration","value","Relative Error"]
     tt.print(table,header)
 
