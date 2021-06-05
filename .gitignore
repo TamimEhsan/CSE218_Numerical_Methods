@@ -1,7 +1,2 @@
-**/*.exe
-**/*.iml
-**/.idea
-**/out
 **/venv
-**/*.zip
-**/BisectionMethod
+**/.idea
