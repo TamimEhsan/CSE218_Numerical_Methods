@@ -1,6 +1,9 @@
 import numpy as np
 
+
 def GaussianElimination(A,B,d):
+
+
     n = len(A)
     x = np.zeros(n)
     A = np.append(A,B,axis=1)
